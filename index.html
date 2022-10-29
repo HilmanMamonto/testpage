@@ -1,12 +1,638 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Hilman Mamonto</title>
-</head>
-<body>
-Hello world, This is my github pages!
-</body>
+  </head>
+  <section class="menu">
+    <div class="menu-header-space"></div>
+    <div class="menu-items">
+      <nav class="text-white">
+        <a class="menu-item active" href="/">About</a>
+        <a class="menu-item" href="/">Work</a>
+        <a class="menu-item" href="/">Services</a>
+        <a class="menu-item" href="/">Jobs</a>
+      </nav>
+      <div class="social-media">
+        <a href="/">
+          <img src="/assets/images/logo-facebook.png" alt="logo-facebook" />
+        </a>
+        <a href="/">
+          <img src="/assets/images/logo-youtube.png" alt="logo-youtube" />
+        </a>
+        <a href="/">
+          <img src="/assets/images/logo-instagram.png" alt="logo-instagram" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <body>
+    <!-- Hero -->
+    <section class="hero-wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div
+          class="cs-container d-flex align-items-center justify-content-between"
+        >
+          <div>
+            <a class="logo" href="">
+              <img class="header-logo" src="/assets/images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="d-none d-md-flex align-items-center">
+            <nav class="header-nav text-gray">
+              <a class="active" href="/">About</a>
+              <a href="/">Work</a>
+              <a href="/">Services</a>
+              <a href="/">Jobs</a>
+            </nav>
+            <button class="button bg-dark text-white">Contact Us</button>
+          </div>
+          <div class="d-flex d-md-none">
+            <button>
+              <img
+                class="btn-burger"
+                src="/assets/images/burger.svg"
+                alt="burger-icon"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- Hero -->
+      <section class="cs-container-mid">
+        <div class="hero d-flex flex-column flex-md-row md-gap-5">
+          <div>
+            <!-- Hero content  -->
+            <div class="hero-content">
+              <h1 class="fw-bold text-dark">
+                Stand Out <br />
+                from The <br />
+                Crowd.
+              </h1>
+              <p class="text-gray">
+                Agency is a full-service agency, busy designing and building
+                beautiful digital products, brands, and experiences.
+              </p>
+              <button class="button bg-primary text-white fw-bold">
+                Recent Work
+              </button>
+            </div>
+            <!-- button scroll -->
+            <div class="d-none d-md-flex align-items-center gap-3">
+              <div
+                style="width: 48px; height: 48px"
+                class="d-flex align-items-center justify-content-center bg-secondary rounded-circle"
+              >
+                <img src="/assets/images/arrow-scroll.svg" />
+              </div>
+              <span class="text-gray" style="font-weight: 600"
+                >scroll down</span
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="/assets/images/3d-wall.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Who We Are -->
+    <section class="who-we-are">
+      <div class="wwa-wrapper">
+        <div class="wwa-content">
+          <!-- wwa head -->
+          <div class="cs-container-mid">
+            <div class="wwa-head">
+              <img
+                class="d-none d-md-flex"
+                src="/assets/images/logo-small.svg"
+                alt=""
+              />
+              <div class="wwa-head-title">
+                <div class="wwa-head-title-small">
+                  <span class="text-gray">01</span>
+                  <span>Who We Are</span>
+                </div>
+                <div class="wwa-head-title-large">
+                  <h1>We Make Designs that Lead and Inpire.</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- wwa head end -->
+          <!-- wwa info -->
+          <div class="cs-container-mid">
+            <div class="wwa-info">
+              <div class="d-flex d-md-none wwa-info-control-mobile">
+                <div class="wwa-icm-left">
+                  <button class="btn-wwa-icm-left">
+                    <img src="/assets/images/arrow-left-white.svg" alt="" />
+                  </button>
+                  <button class="btn-wwa-icm-left active">
+                    <img src="/assets/images/arrow-right-white.svg" alt="" />
+                  </button>
+                </div>
+                <div class="wwa-icm-right">
+                  <select class="wwa-icm-right-items active">
+                    <option class="wwa-icm-right-item">2021</option>
+                    <option class="wwa-icm-right-item">2022</option>
+                    <option class="wwa-icm-right-item">2023</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- wwa  info end -->
+          <!-- wwa info main -->
+          <div class="wwa-info-main cs-container-mid">
+            <ul class="wwa-info-control d-none d-md-flex">
+              <button>
+                <label></label>
+                <span class="text-gray">2018</span>
+              </button>
+              <button>
+                <label></label>
+                <span class="text-gray">2019</span>
+              </button>
+              <button>
+                <label></label>
+                <span class="text-gray">2020</span>
+              </button>
+              <button>
+                <label></label>
+                <span class="text-gray">2021</span>
+                <img src="/assets/images/point-line.svg" alt="" />
+              </button>
+              <button>
+                <label></label>
+                <span class="text-gray">2022</span>
+              </button>
+            </ul>
+            <div class="wwa-info-main-right">
+              <div class="wwa-imr-left"></div>
+              <img
+                class="wwa-imr-mid"
+                src="/assets/images/who-we-are-image.png"
+                alt=""
+              />
+              <img
+                class="wwa-imr-right"
+                src="/assets/images/bg-who-we-are-2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- wwa info main end -->
+          <!-- wwa info foot -->
+          <div class="wwa-info-foot cs-container-mid">
+            <div class="wwa-info-foot-left">
+              <span class="wwa-info-foot-left-line d-none d-md-flex"></span>
+              <div class="wwa-info-foot-mid">
+                <h3>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h3>
+                <p class="text-gray">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  porta sodales leo vitae vestibulum. Nullam val posuere nis.
+                  Donec in lobortis arcu.
+                </p>
+                <button class="button bg-primary text-white fw-bold">
+                  Contact Us
+                </button>
+              </div>
+            </div>
+            <div class="wwa-info-foot-right">
+              <h1>28</h1>
+              <span>Bigest Branding</span>
+            </div>
+          </div>
+          <!-- wwa info foot end -->
+        </div>
+      </div>
+    </section>
+    <!-- Who We Are End -->
+
+    <!-- Recent Work -->
+    <section class="recent-work">
+      <div class="rw-wrapper cs-container-mid">
+        <img
+          class="rw-small-logo d-none d-md-flex"
+          src="/assets/images/logo-small.svg"
+          alt="folio logo"
+        />
+        <div>
+          <div class="rw-head">
+            <div class="title-small fw-semibold">
+              <span>02</span>
+              <span>You may also like</span>
+            </div>
+            <div class="title-large">
+              <h2 class="fw-bold">Recent Works</h2>
+            </div>
+            <p>
+              Agency is a full service agency, busy designing and building
+              beautiful digital products, brands, and experiences.
+            </p>
+          </div>
+          <div class="rw-cards">
+            <div class="rw-card-item">
+              <span class="d-none d-md-flex rw-card-featured"
+                >Featured Product</span
+              >
+              <div class="rw-card rw-c-1">
+                <img
+                  src="/assets/images/recent-work-1.png"
+                  alt="recent-work-image"
+                />
+              </div>
+              <div class="rw-card-title">
+                <h3 class="fw-bold">Bento 3D Illustration</h3>
+                <p>
+                  Agency is a full-service agency, busy designing and building
+                  beautiful digital products, brands, and experiences
+                </p>
+                <button class="d-flex d-md-none rw-card-btn-mobile">
+                  <img src="/assets/images/arrow-right.svg" alt="arrow-right" />
+                </button>
+              </div>
+              <button class="d-none d-md-flex rw-card-btn">
+                <img src="/assets/images/arrow-right.svg" alt="arrow-right" />
+              </button>
+            </div>
+            <div class="rw-card-item">
+              <div class="rw-card rw-c-2">
+                <img
+                  src="/assets/images/recent-work-2.png"
+                  alt="recent-work-image"
+                />
+              </div>
+              <div class="rw-card-title">
+                <h3 class="fw-bold">Bento Vol.3</h3>
+                <p>
+                  Agency is a full-service agency, busy designing and building
+                  beautiful digital products, brands, and experiences
+                </p>
+                <button class="d-flex d-md-none rw-card-btn-mobile">
+                  <img src="/assets/images/arrow-right.svg" alt="arrow-right" />
+                </button>
+              </div>
+              <button class="d-none d-md-flex rw-card-btn">
+                <img src="/assets/images/arrow-right.svg" alt="arrow-right" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-container-mid">
+        <button class="rw-btn d-flex d-md-none">Contact Us</button>
+      </div>
+    </section>
+    <!-- Recent Work End -->
+
+    <!-- Folio Agency -->
+    <section class="folio-agency">
+      <div class="fa-wrapper">
+        <div class="fa-content">
+          <!-- fa head -->
+          <div class="cs-container-mid">
+            <div class="fa-head">
+              <img
+                class="d-none d-md-flex"
+                src="/assets/images/logo-small.svg"
+                alt="folio logo"
+              />
+              <div class="fa-head-right">
+                <div class="fa-title-small">
+                  <span class="text-gray">03</span>
+                  <span>Folio Agency</span>
+                </div>
+                <div class="fa-title-large">
+                  <h3 class="fw-bold">By the Numbers.</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fa head end -->
+
+          <!-- fa mid -->
+          <div class="cs-container-mid">
+            <div class="fa-mid">
+              <div class="fa-m-card fa-m-card-left">
+                <h1>20</h1>
+                <span class="fw-bold"
+                  >Pre-build Scenes
+                  <img src="/assets/images/small-fire.svg" alt=""
+                /></span>
+                <p class="text-gray">
+                  Bento is the firs fully editable, 3D visual design system with
+                  global auto-updatable style guides built right in Figma.
+                </p>
+                <div class="d-none d-md-flex align-items-center gap-3">
+                  <button class="fa-m-card-btn">
+                    <img src="/assets/images/arrow-down.svg" alt="" />
+                  </button>
+                  <label>Download</label>
+                </div>
+              </div>
+              <div class="fa-m-card fa-m-card-right">
+                <h1>40 <label>+</label></h1>
+                <span class="fw-bold">Scenes Object</span>
+                <p class="text-gray">
+                  Bento is the firs fully editable, 3D visual design system with
+                  global auto-updatable style guides built right in Figma.
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                  <button class="fa-m-card-btn">
+                    <img src="/assets/images/arrow-down.svg" alt="" />
+                  </button>
+                  <label>Download</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fa mid end -->
+
+          <!-- fa foot -->
+          <div class="fa-foot-wrapper">
+            <div class="cs-container-mid">
+              <div class="fa-foot-control d-flex d-md-none">
+                <button class="fa-foot-control-btn">
+                  <img
+                    src="/assets/images/arrow-left-white.svg"
+                    alt="arrow-left-white"
+                  />
+                </button>
+                <button class="fa-foot-control-btn active">
+                  <img
+                    src="/assets/images/arrow-right-white.svg"
+                    alt="arrow-right-white"
+                  />
+                </button>
+              </div>
+              <div class="fa-foot">
+                <button class="d-none d-md-flex">
+                  <img
+                    src="/assets/images/arrow-left-white.svg"
+                    alt="arrow-left"
+                  />
+                </button>
+                <div class="fa-foot-image">
+                  <img
+                    src="/assets/images/folio-agency-image.png"
+                    alt="folio-agency-image"
+                  />
+                </div>
+                <button class="d-none d-md-flex">
+                  <img
+                    src="/assets/images/arrow-right-white.svg"
+                    alt="arrow-right"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="fa-foot-white-space"></div>
+          </div>
+          <!-- fa foot end -->
+        </div>
+      </div>
+    </section>
+    <!-- Folio Agency End -->
+
+    <!-- We Are Hiring -->
+    <section class="we-are-hiring">
+      <div class="cs-container-mid">
+        <div class="wah-wrapper flex-md-row flex-column">
+          <div class="wah-head">
+            <img
+              class="d-none d-md-block"
+              src="/assets/images/logo-small.svg"
+              alt=""
+            />
+            <div class="wah-title">
+              <div class="wah-title-small">
+                <span>04</span>
+                <span>We are hiring</span>
+              </div>
+              <div class="wah-title-large">
+                <h1>Jobs</h1>
+              </div>
+              <p class="text-gray">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis aliquam quisquam nobis odio impedit iusto minus. Ea,
+                in doloribus consequatur sunt facilis iure corrupti neque?
+                Placeat ipsum doloribus recusandae id.
+              </p>
+              <div class="wah-button-wrapper d-none d-md-flex">
+                <button class="wah-button">
+                  <img src="/assets/images/arrow-right-white.svg" alt="" />
+                </button>
+                <span
+                  >Available <br />
+                  jobs</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- wah foot -->
+          <div class="wah-foot">
+            <div class="wah-f-item">
+              <div class="wah-f-item-title">
+                <div class="wah-f-item-title-left">
+                  <h3>Graphic Designer</h3>
+                  <span>2 years experience</span>
+                  <button>
+                    <img src="/assets/images/arrow-right.svg" alt="" />
+                  </button>
+                </div>
+                <div class="wah-f-item-title-count">
+                  <img
+                    src="/assets/images/we-are-hiring-oval-bg.svg"
+                    alt="we-are-hiring-oval"
+                  />
+                  <span>2</span>
+                </div>
+              </div>
+            </div>
+            <div class="wah-f-item active">
+              <div class="wah-f-item-title">
+                <div class="wah-f-item-title-left">
+                  <h3>Visual Designer</h3>
+                  <span class="text-gray">2 years experience</span>
+                  <button>
+                    <img src="/assets/images/arrow-right-white.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="wah-f-item-right d-none d-md-flex">
+                <img src="/assets/images/recent-work-1.png" alt="" />
+              </div>
+            </div>
+            <div class="wah-f-item">
+              <div class="wah-f-item-title">
+                <div class="wah-f-item-title-left">
+                  <h3>Art Director</h3>
+                  <span>2 years experience</span>
+                  <button>
+                    <img src="/assets/images/arrow-right.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="wah-f-item">
+              <div class="wah-f-item-title">
+                <div class="wah-f-item-title-left">
+                  <h3>Web Designer</h3>
+                  <span>2 years experience</span>
+                  <button>
+                    <img src="/assets/images/arrow-right.svg" alt="" />
+                  </button>
+                </div>
+                <div class="wah-f-item-title-count">
+                  <img
+                    src="/assets/images/we-are-hiring-oval-bg.svg"
+                    alt="we-are-hiring-oval"
+                  />
+                  <span>6</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- wah foot end -->
+        </div>
+      </div>
+    </section>
+    <!-- We Are Hiring  End-->
+
+    <!-- Say Hello -->
+    <section class="say-hello">
+      <div class="cs-container">
+        <div class="sh-wrapper d-none d-md-block">
+          <div class="sh-head">
+            <div class="sh-head-top">
+              <img src="/assets/images/logo-small-2.png" alt="" />
+              <span>
+                <img
+                  src="/assets/images/say-hello-hand.png"
+                  alt="say-hello-hand"
+                />
+                Say hello
+              </span>
+            </div>
+            <div class="sh-head-bottom">
+              <h3>
+                A design team building a curated marketplace for UI designers.
+              </h3>
+            </div>
+          </div>
+          <div class="sh-foot">
+            <div class="sh-foot-left">
+              <h2>Let's talk about your next project</h2>
+            </div>
+            <div class="sh-foot-mid"></div>
+            <div class="sh-foot-right">
+              <img
+                class="sh-foot-right-chat-img"
+                src="/assets/images/chat.png"
+                alt=""
+              />
+              <div class="sh-foot-right-bottom">
+                <h3 class="mb-0">
+                  Invest in your designs <br />
+                  today!
+                </h3>
+                <button>
+                  <img src="/assets/images/arrow-right-white.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sh mobile -->
+      <div class="sh-mobile d-block d-md-none">
+        <div class="cs-container">
+          <div class="sh-mobile-wrapper">
+            <div class="sh-mobile-head">
+              <img src="/assets/images/chat.png" alt="chat" />
+              <span>
+                <img src="/assets/images/say-hello-hand.png" alt="" />
+                Say hello
+              </span>
+              <p>
+                A design team building a cureted marketplace for UI designers.
+              </p>
+            </div>
+            <div class="sh-mobile-line"></div>
+            <div class="sh-mobile-foot">
+              <h3>Le'ts talk about your next project</h3>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sh mobile end -->
+      <div class="say-hello-footer cs-container-mid">
+        <img src="/assets/images/logo.png" alt="logo" />
+        <p class="text-gray">
+          Agency is a full-service agency, busy designing and building beautiful
+          digital products, brands, and experiences.
+        </p>
+        <ul class="sh-footer-mid d-none d-md-flex">
+          <li class="active">About</li>
+          <li>Work</li>
+          <li>Services</li>
+          <li>Jobs</li>
+        </ul>
+        <div class="sh-footer-bottom d-none d-md-flex">
+          <span>© 2020, UI8 LLC.</span>
+          <div class="sh-footer-bottom-right">
+            <span class="text-primary">Follow us</span>
+            <a href="">
+              <img src="/assets/images/logo-facebook-2.png" alt="facebook" />
+            </a>
+            <a href="">
+              <img src="/assets/images/logo-youtube.png" alt="youtube" />
+            </a>
+            <a href="">
+              <img src="/assets/images/logo-instagram.png" alt="instagram" />
+            </a>
+          </div>
+        </div>
+        <div class="sh-footer-drop-down d-block d-md-none">
+          <select class="text-gray">
+            <option value="">Home</option>
+            <option value="">About</option>
+            <option value="">Work</option>
+            <option value="">Services</option>
+            <option value="">Jobs</option>
+          </select>
+        </div>
+        <ul class="sh-footer-socmed-mobile d-flex d-md-none">
+          <a class="active" href="/">
+            <img src="/assets/images/logo-facebook.png" alt="facebook" />
+          </a>
+          <a href="/">
+            <img src="/assets/images/logo-youtube.png" alt="youtube" />
+          </a>
+          <a href="/">
+            <img src="/assets/images/logo-instagram.png" alt="instagram" />
+          </a>
+        </ul>
+        <span
+          class="text-gray d-block d-md-none"
+          style="font-weight: 600; margin-bottom: 34px"
+          >© 2020, UI8 LLC.</span
+        >
+      </div>
+    </section>
+    <!-- Say Hello End-->
+  </body>
+  <script src="/index.js"></script>
 </html>
