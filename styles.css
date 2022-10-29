@@ -181,7 +181,7 @@ button {
   margin-bottom: calc(80px + 40px);
   overflow-x: hidden;
   height: fit-content;
-  background-image: url("/assets/images/bg-line.png");
+  background-image: url("./assets/images/bg-line.png");
   background-position: 190px -3px;
   background-size: 456px;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ button {
   background-color: var(--dark);
   z-index: 999;
   padding-left: 32px;
-  background-image: url("/assets/images/bg-line-2.png");
+  background-image: url("./assets/images/bg-line-2.png");
   background-repeat: no-repeat;
   background-size: auto 582px;
   background-position: 94px -2px;
@@ -403,7 +403,7 @@ button {
   }
   .wwa-wrapper {
     padding-top: 0px;
-    background-image: url("/assets/images/recent-work-bg-2.svg");
+    background-image: url("./assets/images/recent-work-bg-2.svg");
   }
   .wwa-head-title-large h1 {
     font-size: 64px;
@@ -413,7 +413,7 @@ button {
   .wwa-content {
     padding-top: calc(180px + 40px);
     top: -40px;
-    background: url("/assets/images/bg-who-we-are.png");
+    background: url("./assets/images/bg-who-we-are.png");
     background-size: 802px;
     background-repeat: no-repeat;
     background-position: right top;
@@ -793,8 +793,8 @@ button {
 
 @media (min-width: 720px) {
   .recent-work {
-    background-image: url("/assets/images/recent-work-bg-1.png"),
-      url("/assets/images/recent-work-bg-2.png");
+    background-image: url("./assets/images/recent-work-bg-1.png"),
+      url("./assets/images/recent-work-bg-2.png");
     background-position: 0px 700px, right;
     background-size: 642px, 820px;
   }
@@ -817,7 +817,7 @@ button {
 
 .folio-agency {
   background-color: var(--dark);
-  background-image: url("/assets/images/folio-agency-bg-mobile.png");
+  background-image: url("./assets/images/folio-agency-bg-mobile.png");
   background-repeat: no-repeat;
   background-position: 140px 0;
 }
@@ -927,7 +927,7 @@ button {
   .folio-agency {
     background-position: 0 130px;
     background-size: 468px;
-    background-image: url("/assets/images/bg-line-3.png");
+    background-image: url("./assets/images/bg-line-3.png");
   }
   .fa-m-card {
     max-width: 267px;
@@ -937,7 +937,7 @@ button {
   }
   .fa-wrapper {
     padding-top: calc(180px + 40px);
-    background: url("/assets/images/bg-who-we-are.png");
+    background: url("./assets/images/bg-who-we-are.png");
     top: -40px;
   }
   .fa-mid {
@@ -1024,8 +1024,8 @@ button {
   margin-bottom: 150px;
   position: relative;
   top: 59px;
-  background-image: url("/assets/images/we-are-hiring-bg.png"),
-    url("/assets/images/we-are-hiring-bg-2.png"),
+  background-image: url("./assets/images/we-are-hiring-bg.png"),
+    url("./assets/images/we-are-hiring-bg-2.png"),
     linear-gradient(#f6f2f7, white);
   background-repeat: no-repeat;
   background-position: 1000%, 150px 0px;
@@ -1168,7 +1168,7 @@ button {
   }
 
   .we-are-hiring {
-    background-image: url("/assets/images/we-are-hiring-bg.png");
+    background-image: url("./assets/images/we-are-hiring-bg.png");
     padding-top: 20px;
     top: 20px;
     background-position: 280px 0px;
@@ -1198,13 +1198,13 @@ button {
   background-color: var(--primary);
   border-radius: 40px;
   padding-top: 128px;
-  background-image: url("/assets/images/say-hello-bg.png");
+  background-image: url("./assets/images/say-hello-bg.png");
   background-repeat: no-repeat;
   background-position: 120px 0;
 }
 
 .say-hello {
-  background-image: url("/assets/images/say-hello-bg-2.png");
+  background-image: url("./assets/images/say-hello-bg-2.png");
   background-position: 900px 1010px;
   background-repeat: no-repeat;
 }
@@ -1369,7 +1369,7 @@ button {
   background-color: var(--primary);
   border-radius: 24px;
   padding-top: 49px;
-  background-image: url("/assets/images/say-hello-bg-mobile.png");
+  background-image: url("./assets/images/say-hello-bg-mobile.png");
   background-repeat: no-repeat;
   background-position: 56px 0;
 }
