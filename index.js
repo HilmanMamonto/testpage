@@ -1,5 +1,4 @@
 // Menu
-
 const menu = document.querySelector(".menu");
 const headerLogo = document.querySelector(".header-logo");
 const burger = document.querySelector(".btn-burger");
