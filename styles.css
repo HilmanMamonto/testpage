@@ -1,8 +1,18 @@
 @font-face {
   font-family: "SF-Pro-Display";
-  src: url("/assets/fonts/SF-Pro-Display-Regular.otf"),
-    url("/assets/fonts/SF-Pro-Display-Semibold.otf"),
-    url("/assets/fonts/SF-Pro-Display-Bold.otf");
+  src: url("/assets/fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url("/assets/fonts/SF-Pro-Display-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url("/assets/fonts/SF-Pro-Display-Semibold.otf");
+  font-weight: 600;
 }
 
 html {
